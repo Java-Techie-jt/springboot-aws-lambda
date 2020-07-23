@@ -31,7 +31,7 @@ https://www.youtube.com/watch?v=euLs1SbYKzE&t=807s
 ## Plugins (It will helps to downstream your jar size)
 
 ```javascript
-<plugins>
+		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-deploy-plugin</artifactId>
@@ -46,7 +46,7 @@ https://www.youtube.com/watch?v=euLs1SbYKzE&t=807s
 					<dependency>
 						<groupId>org.springframework.boot.experimental</groupId>
 						<artifactId>spring-boot-thin-layout</artifactId>
-						<version>${wrapper.version}</version>
+						<version>1.0.17.RELEASE</version>
 					</dependency>
 				</dependencies>
 			</plugin>
